@@ -177,11 +177,7 @@
                 <div class="col-12 col-md-6">
                   <div class="d-flex flex-row-reverse bd-highlight">
                     <a
-                      :href="
-                        'https://pasien.klinikpintar.id/clinic/' +
-                        item.id +
-                        '/reservation'
-                      "
+                      :href="'https://api.staging.klinikpintar.id/hc/open/health-center?page=1&limit=5'"
                       class="btn btn-primary btn-janji pull-right color-white"
                     >
                       Buat Janji
